@@ -60,6 +60,8 @@ Please note the following limitations:
 - The application requires further Bootstrap optimization to ensure full responsiveness for mobile devices.
 ## Known Issues
 - The logout button is currently missing from the application. I am actively working on resolving this issue and will provide updates as I make progress. Please note that this is part of an ongoing effort to enhance the functionality of the project.
+
+# ScreenShots
 ![Screenshot](src/images/sc1.png)
 ![Screenshot](src/images/sc2.png)
 ![Screenshot](src/images/sc3.png)
