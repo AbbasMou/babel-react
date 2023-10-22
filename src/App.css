@@ -1,0 +1,31 @@
+/* .App {
+  padding: 3px;
+} */
+/* Set up the initial background colors */
+/* Set up the initial background colors */
+.green-background {
+  background-color: rgb(12, 146, 12);
+  width: 100%; /* Initial width for the green background */
+  height: auto;
+  float: left;
+  
+}
+
+.white-content {
+  background-color: white;
+  width: 80%; /* Initial width for the white content */
+  height: 85%;
+  margin: 50px auto 50px auto; /* Center white content */
+  padding: 20px; /* Create space for green background */
+}
+
+/* Ensure proper resizing */
+@media (max-width: 768px) {
+  .green-background{
+    width: 0%;
+  }
+  .white-content {
+    width: 100%; /* Make white content 100% width on smaller screens */
+  }
+
+}
