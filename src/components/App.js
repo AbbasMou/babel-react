@@ -1,12 +1,12 @@
 // App.js
 import React, { useState, useEffect } from 'react';
-import Heading from './components/Heading';
-import HorizontalMenu from './components/HorizontalMenu';
-import CarouselComponent from './components/Carousel';
-import NewsCards from './components/NewsCards';
-import './App.css';
-import MostReaded from './components/MostReaded';
-import Footer from './components/Footer'
+import Heading from './Heading';
+import HorizontalMenu from './HorizontalMenu';
+import CarouselComponent from './Carousel';
+import NewsCards from './NewsCards';
+import '../css/App.css';
+import MostReaded from './MostReaded';
+import Footer from './Footer';
 function App() {
   const [categories, setCategories] = useState([]);
   useEffect(() => {
